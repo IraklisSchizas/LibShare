@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".AcceptOrRejectTrade">
+
+<!--text to display username-->
+    <TextView
+        android:id="@+id/idUsernameAOD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:inputType="none"
+        android:text="Username"
+        android:textSize="20sp" />
+
+<!--text to display book's name-->
+<TextView
+    android:id="@+id/idBookNameAOD"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:inputType="none"
+    android:text="Book Name"
+    android:textSize="20sp" />
+
+<!--text to display book's author-->
+<TextView
+    android:id="@+id/idAuthorAOD"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:inputType="none"
+    android:text="Author"
+    android:textSize="20sp" />
+
+<!--text to display book's price-->
+<TextView
+    android:id="@+id/idPriceAOD"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:inputType="none"
+    android:text="Price"
+    android:textSize="20sp"/>
+
+<!--button for accepting trade-->
+<Button
+    android:id="@+id/idBtnAcceptTrade"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="Accept Trade"
+    android:textAllCaps="false" />
+
+<!--button for deleting trade-->
+<Button
+    android:id="@+id/idBtnDeleteTrade"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:text="Delete Trade"
+    android:textAllCaps="false" />
+
+</LinearLayout>
