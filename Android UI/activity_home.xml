@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <![CDATA[
+    //tools:context=".HomeActivity">
+
+
+    ]]>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="414dp"
+        android:layout_height="731dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/user_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/topmessage"
+        android:layout_width="315dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="681dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <Button
+        android:id="@+id/my_profile"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginEnd="100dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="10dp"
+        android:text="my profile"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        app:backgroundTint="#F0F291"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <Button
+        android:id="@+id/trade_books"
+        android:layout_width="304dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="47dp"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:text="trade books"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        app:backgroundTint="#DDD8FC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <Button
+        android:id="@+id/search_books"
+        android:layout_width="304dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="47dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:text="search books"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        app:backgroundTint="#DDD8FC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="60dp" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginLeft="79dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="153dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="logout"
+        android:textColor="@color/black"
+        android:textSize="13dp"
+        app:backgroundTint="#FF7F37"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="60dp" />
+
+
+</RelativeLayout>
